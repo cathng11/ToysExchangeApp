@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Mobile Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "nodemon ./server.js http://192.168.1.128:3070/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dateformat": "^4.5.1",
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.1",
+    "mongodb": "^3.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
